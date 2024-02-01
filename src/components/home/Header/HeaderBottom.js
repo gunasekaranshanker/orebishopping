@@ -61,10 +61,10 @@ const HeaderBottom = () => {
                   Accessories
                 </li>
                 <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Furniture
+                  Toys
                 </li>
                 <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Electronics
+                  Electronics Toys
                 </li>
                 <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
                   Clothes
@@ -73,7 +73,7 @@ const HeaderBottom = () => {
                   Bags
                 </li>
                 <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400  hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Home appliances
+                  kids care
                 </li>
               </motion.ul>
             )}
@@ -117,13 +117,13 @@ const HeaderBottom = () => {
                         <p className="font-semibold text-lg">
                           {item.productName}
                         </p>
-                        <p className="text-xs">{item.des}</p>
+                        {/* <p className="text-xs">{item.des}</p>
                         <p className="text-sm">
                           Price:{" "}
                           <span className="text-primeColor font-semibold">
                             ${item.price}
                           </span>
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   ))}

@@ -31,8 +31,11 @@ const Header = () => {
       <nav className="h-full px-4 max-w-container mx-auto relative">
         <Flex className="flex items-center justify-between h-full">
           <Link to="/">
-            <div>
-              <Image className="w-20 object-cover" imgSrc={logo} />
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <div>
+                <Image className="w-20 object-cover" imgSrc={logo} />
+              </div>
+              <div style={{ color: "#EE11CB", marginLeft: "8px" ,fontWeight:"bolder",fontSize:"30px",fontFamily:"sans-serif"}}>BUDDY GEES</div>
             </div>
           </Link>
           <div>
@@ -109,7 +112,7 @@ const Header = () => {
                           <li className="headerSedenavLi">New Arrivals</li>
                           <li className="headerSedenavLi">Gudgets</li>
                           <li className="headerSedenavLi">Accessories</li>
-                          <li className="headerSedenavLi">Electronics</li>
+                          <li className="headerSedenavLi">Electronics Toys</li>
                           <li className="headerSedenavLi">Others</li>
                         </motion.ul>
                       )}
@@ -132,7 +135,7 @@ const Header = () => {
                           <li className="headerSedenavLi">New Arrivals</li>
                           <li className="headerSedenavLi">Gudgets</li>
                           <li className="headerSedenavLi">Accessories</li>
-                          <li className="headerSedenavLi">Electronics</li>
+                          <li className="headerSedenavLi">Electronics Toys</li>
                           <li className="headerSedenavLi">Others</li>
                         </motion.ul>
                       )}

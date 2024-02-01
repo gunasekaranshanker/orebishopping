@@ -7,6 +7,7 @@ import {
   newArrTwo,
   newArrThree,
   newArrFour,
+  newArrFive ,
 } from "../../../assets/images/index";
 import SampleNextArrow from "./SampleNextArrow";
 import SamplePrevArrow from "./SamplePrevArrow";
@@ -48,61 +49,61 @@ const NewArrivals = () => {
   };
   return (
     <div className="w-full pb-16">
-      <Heading heading="New Arrivals" />
+      <Heading heading="Fashion" />
       <Slider {...settings}>
         <div className="px-2">
           <Product
             _id="100001"
             img={newArrOne}
-            productName="Round Table Clock"
-            price="44.00"
-            color="Black"
+            productName="Party Wear"
+            price="440.00"
+            color="Multi"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Party Dress: Dresses designed for parties and special events, usually featuring embellishments, lace, or satin materials."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100002"
             img={newArrTwo}
-            productName="Smart Watch"
+            productName="Comfort Wear"
             price="250.00"
-            color="Black"
+            color="Red"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Perfect for everyday wear, our dresses are comfortable and designed with the latest fashion trends in mind."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100003"
             img={newArrThree}
-            productName="cloth Basket"
-            price="80.00"
+            productName="Dresses & Frocks"
+            price="780.00"
             color="Mixed"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="A lovely Frock dress in vibrant colours for your little girl. An adorable classic bow making a chic statement and stripes creating there own magic. Perfect dress to adorn for that day out.."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100004"
             img={newArrFour}
-            productName="Funny toys for babies"
-            price="60.00"
+            productName="TENDSY"
+            price="499.00"
             color="Mixed"
             badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Stretchable & Shrinkage Resistant Fabric: The Baby Socks are made with cotton fabric keeping in mind the ultra-sensitive skin of babies in mind. These are breathable, sweat-resistant, and odorless."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100005"
-            img={newArrTwo}
-            productName="Funny toys for babies"
-            price="60.00"
+            img={newArrFive }
+            productName="KIDIS LAND Stylish Printed Boys Winter Wear Kids Clothing Sets"
+            price="499.00"
             color="Mixed"
             badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Kidis Land Kids Unisex Tees Short Sets are a great choice for parents who want to make sure their children are comfortable wearing quality clothes. These Sets are perfect for children of all ages. They are made of premium quality cotton and polyester material and are vibrant, safe, and durable. Whether you are looking for your kid to wear something for school or for a special occasion, we have you covered in everything. We have a great collection for little champs."
           />
         </div>
       </Slider>

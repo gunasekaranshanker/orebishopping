@@ -17,6 +17,7 @@ const Banner = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
+    
     beforeChange: (prev, next) => {
       setDocActive(next);
     },
@@ -100,11 +101,11 @@ const Banner = () => {
     ],
   };
   return (
-    <div className="w-full bg-white">
+    <div className="w-full bg-white" style={{marginLeft:"150px"}}>
       <Slider {...settings}>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgOne} />
+            <Image imgSrc={bannerImgOne}  />
           </div>
         </Link>
         <Link to="/offer">

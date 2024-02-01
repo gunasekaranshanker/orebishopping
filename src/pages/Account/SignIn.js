@@ -50,40 +50,38 @@ const SignIn = () => {
           <Link to="/">
             <img src={logoLight} alt="logoImg" className="w-28" />
           </Link>
-          <div className="flex flex-col gap-1 -mt-1">
+          <div className="flex flex-col gap-1 ">
             <h1 className="font-titleFont text-xl font-medium">
               Stay sign in for more
             </h1>
             <p className="text-base">When you sign in, you are with us!</p>
           </div>
           <div className="w-[300px] flex items-start gap-3">
-            <span className="text-green-500 mt-1">
+            <span className="text-green-500 ">
               <BsCheckCircleFill />
             </span>
             <p className="text-base text-gray-300">
               <span className="text-white font-semibold font-titleFont">
-                Get started fast with OREBI
+                Get started fast with Buddy Gees
               </span>
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
-              nisi dolor recusandae consectetur!
+              In-app customer support through chat, email, or a helpline to assist users with queries or issues.
             </p>
           </div>
           <div className="w-[300px] flex items-start gap-3">
-            <span className="text-green-500 mt-1">
+            <span className="text-green-500 ">
               <BsCheckCircleFill />
             </span>
             <p className="text-base text-gray-300">
               <span className="text-white font-semibold font-titleFont">
-                Access all OREBI services
+                Access all Buddy Gees
               </span>
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
-              nisi dolor recusandae consectetur!
+              Allow users to provide feedback on products, services, or the overall app experience.
             </p>
           </div>
           <div className="w-[300px] flex items-start gap-3">
-            <span className="text-green-500 mt-1">
+            <span className="text-green-500 ">
               <BsCheckCircleFill />
             </span>
             <p className="text-base text-gray-300">
@@ -91,14 +89,13 @@ const SignIn = () => {
                 Trusted by online Shoppers
               </span>
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
-              nisi dolor recusandae consectetur!
+              Notifications to keep users informed about promotions, order updates, and relevant information.
             </p>
           </div>
-          <div className="flex items-center justify-between mt-10">
+          <div className="flex items-center justify-between mt-1">
             <Link to="/">
               <p className="text-sm font-titleFont font-semibold text-gray-300 hover:text-white cursor-pointer duration-300">
-                © OREBI
+                © Buddy Gees
               </p>
             </Link>
             <p className="text-sm font-titleFont font-semibold text-gray-300 hover:text-white cursor-pointer duration-300">
@@ -145,7 +142,7 @@ const SignIn = () => {
                     value={email}
                     className="w-full h-8 placeholder:text-sm placeholder:tracking-wide px-4 text-base font-medium placeholder:font-normal rounded-md border-[1px] border-gray-400 outline-none"
                     type="email"
-                    placeholder="john@workemail.com"
+                    placeholder="gunasekaran.gbk@gmail.com"
                   />
                   {errEmail && (
                     <p className="text-sm text-red-500 font-titleFont font-semibold px-4">
